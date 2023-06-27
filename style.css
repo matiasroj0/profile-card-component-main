@@ -1,0 +1,131 @@
+:root {
+    /* primary */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    /* neutral */
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+/* ----css reset--- */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* ---------------- */
+
+html {
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: -30% 350%, 130% -280%;
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 1rem;
+}
+
+.card {
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-background {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -3rem;
+}
+
+.profile-name-age {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: .3rem;
+}
+
+.profile-name-age h3 {
+    font-size: 1.1rem;
+    color: var(--very-dark-desaturated-blue);
+
+}
+
+.city {
+    font-size: .85rem;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    color: var(--dark-gray);
+}
+
+hr {
+    width: 100%;
+    border: .1px solid rgb(226, 226, 226);
+}
+
+.stats-container {
+    display: flex;
+    text-align: center;
+    padding: 1.2rem;
+    gap: 3rem;
+}
+
+.stat h4 {
+    font-weight: 700;
+    font-size: 1.10rem;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.stat p {
+    font-size: .7rem;
+}
+
+
+@media (max-width:700px) {
+    body {
+        background-position: 120% 380%, -20% -270%;
+    }
+    
+}
