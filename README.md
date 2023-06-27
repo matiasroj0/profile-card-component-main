@@ -8,7 +8,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: https://stalwart-cendol-0320fd.netlify.app/
+- Live Site URL: https://teal-cuchufli-48f7e4.netlify.app/
 
 ### The challenge
 
