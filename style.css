@@ -126,6 +126,7 @@ hr {
 @media (max-width:700px) {
     body {
         background-position: 120% 380%, -20% -270%;
+        align-items: baseline;
     }
     
 }
