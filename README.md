@@ -22,3 +22,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Author
 
 - Frontend Mentor - [@matiasroj0](https://www.frontendmentor.io/profile/matiasroj0)
+- LinkedIn - https://www.linkedin.com/in/matias-rojo-49aa2a197/
